@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunctionApps", "FunctionApps", "{497A1061-1445-4724-A397-25343BB7F8A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundooMicroServices.Models", "FundooMicroServices.Models\FundooMicroServices.Models.csproj", "{9964EE0A-D796-418F-815A-014F0F148620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundooMicroServices.FunctionApp.Users", "FunctionApps\FundooMicroServices.FunctionApp.Users\FundooMicroServices.FunctionApp.Users.csproj", "{CA8612BA-7762-473D-8808-9B3794BA9BB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundooMicroServices.Shared", "FundooMicroServices.Shared\FundooMicroServices.Shared.csproj", "{2115910D-A296-4961-BCCC-748EF3046119}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundooMicroServices.FunctionApp.Notes", "FunctionApps\FundooMicroServices.FunctionApp.Notes\FundooMicroServices.FunctionApp.Notes.csproj", "{F8D3439C-0782-4CC1-B33D-523F82F18824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9964EE0A-D796-418F-815A-014F0F148620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9964EE0A-D796-418F-815A-014F0F148620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9964EE0A-D796-418F-815A-014F0F148620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9964EE0A-D796-418F-815A-014F0F148620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8612BA-7762-473D-8808-9B3794BA9BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8612BA-7762-473D-8808-9B3794BA9BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8612BA-7762-473D-8808-9B3794BA9BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8612BA-7762-473D-8808-9B3794BA9BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2115910D-A296-4961-BCCC-748EF3046119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2115910D-A296-4961-BCCC-748EF3046119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2115910D-A296-4961-BCCC-748EF3046119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2115910D-A296-4961-BCCC-748EF3046119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D3439C-0782-4CC1-B33D-523F82F18824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D3439C-0782-4CC1-B33D-523F82F18824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D3439C-0782-4CC1-B33D-523F82F18824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D3439C-0782-4CC1-B33D-523F82F18824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA8612BA-7762-473D-8808-9B3794BA9BB3} = {497A1061-1445-4724-A397-25343BB7F8A5}
+		{F8D3439C-0782-4CC1-B33D-523F82F18824} = {497A1061-1445-4724-A397-25343BB7F8A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D018B8E4-D7F6-4B00-962C-97C4F1FFADEB}
+	EndGlobalSection
+EndGlobal
